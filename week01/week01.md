@@ -155,7 +155,8 @@ accNo | balance | type
 
 
 
-# 📽️ SQLite demo
+# ▶️ Demo
+### The [Northwind](nw.sql) database in [SQLite](https://sqlite.org/)
 
 
 ## SQLite
@@ -163,7 +164,8 @@ accNo | balance | type
 - It is lightweight and it can run in most computing device
 - User interacts with SQLite via the [Terminal](https://support.apple.com/en-nz/guide/terminal/welcome/mac) / [Command Prompt](https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/windows-commands), or a GUI like [DB Browser](https://sqlitebrowser.org/)
 - SQLite command vs SQL statement
-- A SQLite database file is named with a file extension ```.db``` or ```.sqlite```
+- A SQLite database file is commonly named with ```.db``` or ```.sqlite```
+- A ```.sql``` file is known as a script file containing SQL statements
 
 
 
