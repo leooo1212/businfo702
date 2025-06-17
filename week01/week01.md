@@ -47,15 +47,22 @@ achievement of the organisation’s objectives
 ## The [DIKW model](https://www.nomos-elibrary.de/10.5771/0943-7444-2019-1-33.pdf)
 ![Example of DIKW model](https://s3.amazonaws.com/external_clips/attachments/39914/original/pmIHS_IoT2_Fig2.png?1420841911)
 
+<small>Figure 1.1: The DIKW model from [Mannion (2015)](https://electronics360.globalspec.com/article/4890/optimal-analysis-algorithms-are-iot-s-big-opportunity)</small>
+
 
 ## The [DIKAR model](https://www.researchgate.net/profile/Amodu-Akeem/publication/357242513_Critical_Overview_of_Information_Management_DIKAR_Model_and_Technology_in_the_21st_Century/links/61c30aeeabcb1b520ad6d2bb/Critical-Overview-of-Information-Management-DIKAR-Model-and-Technology-in-the-21st-Century.pdf)
-![The gaps in DIKAR](https://upload.wikimedia.org/wikipedia/commons/3/32/DIKAR_model.jpg)
+![The DIKAR model](https://www.oreilly.com/api/v2/epubs/9781098162818/files/assets/toward_holistic_metadata_management_316852_06.png)
+
+<small>Figure 1.2: The DIKAR model from [Olesen-Bagneux (2025)](https://www.oreilly.com/library/view/fundamentals-of-metadata/9781098162818/ch01.html)</small>
+
 ![Two approaches in DIKAR](https://media.springernature.com/lw685/springer-static/image/chp%3A10.1007%2F978-3-030-32922-8_30/MediaObjects/486132_1_En_30_Fig5_HTML.png)
+
+<small>Figure 1.3: The DIKAR model from [Daly (2020)](https://doi.org/10.1007/978-3-030-32922-8_30)</small>
 
 
 ## Data management
 - Data is the new oil (Humby, 2006)
-- After refinement (i.e. cleansing, validation, analysis and auditing), data could become useful information for businesses
+- After refinement (i.e. cleansing, validation, analysis and auditing), data could become useful information for business
 - Data sovernigty and governance
 - Structured data vs unstructured data
 - Database and data warehouse
@@ -78,11 +85,10 @@ achievement of the organisation’s objectives
 ## What you would learn
 - By the end of the course, you would have gained a solid background in information management. Specifically:
 
-	- demonstrate effective use of data management software and tool
-	- understand [entity-relationship (ER) model](https://en.wikipedia.org/wiki/Entity%E2%80%93relationship_model)
-	- program basic to complex queries in [SQL](https://en.wikipedia.org/wiki/SQL) for both operational and analytical purposes
-	- design and execute the extract, transform, load [(ETL)](https://en.wikipedia.org/wiki/Extract,_transform,_load) three-phase computing process
-	- show independent and reflect thinking, considering the [ethical](https://data.govt.nz/toolkit/data-ethics/), regulatory, cultural and social contexts of data and information management
+	- demonstrate effective use of key data management software and tools
+	- write queries using Structured Query Language [(SQL)](https://en.wikipedia.org/wiki/SQL) to extract data stored in relational databases and data warehouses
+	- plan, design and execute the extract, transform, load [(ETL)](https://en.wikipedia.org/wiki/Extract,_transform,_load) data flows from transactional data stores to a data warehouse
+	- show independent and reflect thinking, considering the [ethical](https://data.govt.nz/toolkit/data-ethics/), regulatory, cultural and social contexts of data and business information management
 
 
 
@@ -96,6 +102,8 @@ achievement of the organisation’s objectives
 - How to design a relational database?
 
 - How to implement and use a relational database?
+
+- SQLite and SQL
 
 
 ## What is a database?
@@ -115,6 +123,8 @@ achievement of the organisation’s objectives
 
 - The DBMS [evolution](https://en.wikipedia.org/wiki/Database#History): hierarchical → network → relational → object-oriented → object-relational → NoSQL → NewSQL
 
+- The [most popular DBMS in 2024](https://survey.stackoverflow.co/2024/technology#1-databases) based on the [developer survey](https://survey.stackoverflow.co/2024/) from [Stack Overflow](https://stackoverflow.com/)
+
 
 ## What is a relational database?
 - All major general purpose DBMSs are based on the so-called [relational data model](https://en.wikipedia.org/wiki/Relational_model). It means that all data are stored in a number of named tables (with named columns), such as the following table __Account__:
@@ -129,7 +139,7 @@ accNo | balance | type
 
 
 ## How to design a relational database?
-- It is often far from obvious to decide how to store data from an application as relations. A small part of the course will deal with a methodology for good relational database design known as ER modelling
+- It is often far from obvious to decide how to store data from an application as relations. A small part of the course will deal with a methodology for good relational database design known as [entity-relationship (ER) modelling]((https://en.wikipedia.org/wiki/Entity%E2%80%93relationship_model))
 
 - 🤔 Suggest how to represent the following types of data as one or more relations: 1) a contact list, 2) a shopping cart
 
@@ -149,10 +159,11 @@ accNo | balance | type
 
 
 ## SQLite
-- [SQLite](https://sqlite.org/) is the software we will be using in this course for learning and executing SQL queries. It is the [most widely deployed and used DBMS, and the second most deployed software](https://www.sqlite.org/mostdeployed.html)
-- It is lightweight and it can be run in most computing device
-- We interact with SQLite via the Terminal / Command Prompt, or a GUI like [DB Browser](https://sqlitebrowser.org/)
+- [SQLite](https://sqlite.org/) is the DBMS software used in this course for learning and executing SQL queries. It is the [most widely deployed and used DBMS, and the second most deployed software](https://www.sqlite.org/mostdeployed.html)
+- It is lightweight and it can run in most computing device
+- User interacts with SQLite via the [Terminal](https://support.apple.com/en-nz/guide/terminal/welcome/mac) / [Command Prompt](https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/windows-commands), or a GUI like [DB Browser](https://sqlitebrowser.org/)
 - SQLite command vs SQL statement
+- A SQLite database file is named with a file extension ```.db``` or ```.sqlite```
 
 
 
