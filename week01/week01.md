@@ -160,12 +160,14 @@ accNo | balance | type
 
 
 ## SQLite
-- [SQLite](https://sqlite.org/) is the DBMS software used in this course for learning and executing SQL queries. It is the [most widely deployed and used DBMS, and the second most deployed software](https://www.sqlite.org/mostdeployed.html)
+- [SQLite](https://sqlite.org/) is an open source cross-platform embedded relational DBMS. It is the [most deployed and used database, and the second most deployed software](https://www.sqlite.org/mostdeployed.html)
 - It is lightweight and it can run in most computing device
 - User interacts with SQLite via the [Terminal](https://support.apple.com/en-nz/guide/terminal/welcome/mac) / [Command Prompt](https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/windows-commands), or a GUI like [DB Browser](https://sqlitebrowser.org/)
-- SQLite command vs SQL statement
+- [SQLite command](http://sqlite.org/cli.html) vs [SQL statement](http://sqlite.org/lang.html)
 - A SQLite database file is commonly named with ```.db``` or ```.sqlite```
 - A ```.sql``` file is known as a script file containing SQL statements
+- 🤔 What is the major difference between SQLite and other RDBMS product?
+- 📢 All SQL related content and assessment in this course are expected to be run with SQLite
 
 
 
@@ -244,7 +246,7 @@ AND <conditions>;
 
 
 ## SQL: Quiz
-- Consider the relation [__Account__](#/6) again
+- Consider the relation [__Account__](#/7) again
 
 	Write a SQL statement that lists all accounts (with accNo and type) that have a positive balance
 
