@@ -127,9 +127,9 @@ achievement of the organisation’s objectives
 
 
 ## What is a relational database?
-- All major general purpose DBMSs are based on the so-called [relational data model](https://en.wikipedia.org/wiki/Relational_model). It means that all data are stored in a number of named tables (with named columns), such as the following table __Account__:
+- All major general purpose DBMSs are based on the so-called [relational data model](https://en.wikipedia.org/wiki/Relational_model). It means that all data are stored in a number of named tables (with named columns and keys), such as the following table __Account__:
 
-accNo | balance | type
+_accNo_ | balance | type
 --- | --- | ---
 11111 | 1234.50 | saving
 22222 | 7654.32 | check
@@ -173,7 +173,7 @@ accNo | balance | type
 
 ## SQL
 
-accNo | balance | type
+_accNo_ | balance | type
 --- | --- | ---
 11111 | 1234.50 | saving
 22222 | 7654.32 | check
@@ -212,7 +212,7 @@ WHERE accNo > balance;
 
 ## SQL: more example
 
-accNo | name | address
+_accNo_ | _name_ | address
 --- | --- | ---
 11111 | Dexter Morgan | 666 Miami Road
 22222 | Steven Roger | 222 Patriot Street

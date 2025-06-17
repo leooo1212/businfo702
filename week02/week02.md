@@ -8,7 +8,7 @@
 
 - Information management
 	- DIKW, DIKAR
-	- Database, DBMS, relation
+	- Database, DBMS, relation (table, column, key, row)
 
 - SQLite and SQL (SELECT-FROM-WHERE)
 
