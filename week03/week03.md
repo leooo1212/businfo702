@@ -519,7 +519,7 @@ Week | Lecture
 
 
 # 🌏 THE END
-Don't forget database is awesome!
+Don't forget information management is awesome!
 
 [🖨](?print-pdf)
 
