@@ -23,6 +23,9 @@
 	- Case study
 
 - SQL with multiple tables
+  - INNER JOIN, LEFT OUTER JOIN, CROSS JOIN, SELF JOIN
+  - equi vs non equi join
+  - explicit vs implicit join notation
 
 
 
@@ -304,7 +307,7 @@ bookCode    authorNo    authorNo    authorFirstName
 	- It joins a table to itself
 
 
-## Inner join: equi-join
+## Inner join: equi join
 ```sql
 SELECT bookTitle, authorLastName, pubName, pubDate
 FROM Author a, Writing w, Book b, Publisher p
@@ -326,7 +329,7 @@ Judo                Lisa            Hatfield and   1985-02-24
 - 🤔 Rewrite the SELECT statement with explicit join notation
 
 
-## Inner join: non equi-join
+## Inner join: non-equi join
 ```sql
 SELECT bookCode, price, bookGrade
 FROM BookPrice p, BookGrade g
@@ -473,7 +476,7 @@ McMillan Publishin  Chuck Sawyer Books
 
 	- know the vocabulary of the ER model: entity, entity set, relationship, degree, cardinality, attribute, key etc
 
-	- know how to create and interpret a data model in logical ERD
+	- know how to create and interpret a data model from a logical ERD
 
 	- know how to use join in SQL with multiple tables
 
