@@ -26,6 +26,9 @@
 - Expression
   - CASE and CAST
 
+- Relational operation
+  - UNION, INTERSECT, EXCEPT
+
 
 
 ## Multi-row function
@@ -295,6 +298,75 @@ staffCode   salary
 
 
 
+## Relational operation
+- The concept of relational operation is to take one or more relations as input and produce a relation as output! This allows relational operations to be nested together (i.e. subquery)
+
+- The SELECT statement in SQLite supports all relational operations defined in ANSI SQL (which map to the original relational operators defined by Codd) with the exception of right and full outer joins
+
+- In SQLite, these relational operations support compound SELECT statement:
+
+	- UNION / UNION ALL
+	- INTERSECT
+	- EXCEPT
+
+
+## UNION / UNION ALL
+- UNION is considered to be a fundamental relational operation. It combines the result of two SELECT statements into one, given they have the exact same projection of column
+
+- Duplicated rows would be omitted and shown only once in UNION; all rows would be shown as they are in UNION ALL
+	- A NULL value is considered equal to other NULL value, and distinct from all non-NULL values
+
+- There could only be one ORDER BY clause for a UNION or UNION ALL
+
+```sql
+SELECT * FROM Book
+WHERE UPPER(bookType) = 'HOR'
+UNION
+SELECT * FROM Book
+WHERE UPPER(paperback) = 'Y'
+ORDER BY bookCode;
+```
+<!-- .element: contenteditable="true" -->
+
+
+## INTERSECT
+- INTERSECT behaves similarly to UNION, but instead of showing the non-duplicating rows from the two SELECT statements, it shows only the duplicating rows in the result (but not in duplication)
+
+```sql
+SELECT * FROM Book
+WHERE UPPER(bookType) = 'HOR'
+INTERSECT
+SELECT * FROM Book
+WHERE UPPER(paperback) = 'Y'
+ORDER BY bookCode;
+```
+```txt
+bookCode    bookTitle   bookType    paperback
+----------  ----------  ----------  ----------
+116         Judo        HOR         Y
+
+```
+
+
+## EXCEPT
+- EXCEPT works similarly to UNION; it shows the rows resulted from the first SELECT statement but not the second one. Therefore unlike other relational operation, the order of the two SELECT statements matter
+
+```sql
+SELECT * FROM Book
+WHERE UPPER(bookType) = 'HOR'
+EXCEPT
+SELECT * FROM Book
+WHERE UPPER(paperback) = 'Y'
+ORDER BY bookCode;
+```
+```txt
+bookCode    bookTitle           bookType    paperback
+----------  ------------------  ----------  ----------
+113         Passage to Freedom  HOR         N
+```
+
+
+
 ## 🗒 Summary
 - By now you have learnt:
 
@@ -304,9 +376,11 @@ staffCode   salary
 
 	- how to use CASE and CAST
 
+	- how to use UNION, INTERSECT, EXCEPT
+
 
 ## 📝 To do
-- Practice multi-row function, subquery, CASE and CAST in SQL
+- Practice multi-row function, subquery, CASE, CAST, UNION, INTERSECT and EXCEPT in SQL
 
 - Attend the lab
 

@@ -49,10 +49,10 @@ Note: Students could get support from Rohan Willis of the Business Communication
 
 ## 🤖 Generative AI tool
 - The use of generative AI tool, like [Microsoft Copilot](https://copilot.microsoft.com/) from UoA, is always permitted for learning purpose; however, in terms of assessment they could only be used for assignments with the following conditions met:
-  - You must declare the use of generative AI tool
-  - You must take full responsibility of the output from the tool
-  - You must provide an additional appendix document with a complete log of all raw prompts and outputs
-  - You must not share your prompts and outputs with any third-party
+  - You must declare the use of generative AI tool (for project only)
+  - You must take full responsibility of the output from the tool (for assignments, tutorials and project)
+  - You must provide an additional appendix document with a complete log of all raw prompts and outputs (for project only)
+  - You must not share your prompts and outputs with any third-party (for assignments, tutorials and project)
 
 📢 No generative AI tool is allowed for the test; please be aware of the [advice on using generative AI tool](https://www.auckland.ac.nz/en/students/forms-policies-and-guidelines/student-policies-and-guidelines/academic-integrity-copyright/advice-for-student-on-using-generative-ai.html) and [breaches of academic integrity](https://www.auckland.ac.nz/en/students/forms-policies-and-guidelines/student-policies-and-guidelines/academic-integrity-copyright/Breaches-of-academic-integrity.html)
 
