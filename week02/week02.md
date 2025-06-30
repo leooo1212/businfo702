@@ -463,7 +463,7 @@ bookCode    bookTitle       bookType    paperback
 <br />
 
 - In SQLite, IS operator is equivalent to = and ==
-- Similarly, IS NOT is equivalent to <> and =!
+- Similarly, IS NOT is equivalent to <> and !=
 
 
 ## LIKE
