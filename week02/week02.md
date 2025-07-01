@@ -132,18 +132,20 @@ DROP TABLE MeadowbankAuthor;
 ```
 INSERT INTO Author (authorFirstName, authorLastName,
 authorStreet, authorSuburb, authorCity) VALUES
-('De Silva','Clarice', '21 Park View Street',
-'Park View', 'Auckland');
+('De Silva','Clarice', '21 Park View Street', 'Park View', 'Auckland');
 
-INSERT INTO Author (authorFirstName, authorLastName, authorStreet, authorSuburb, authorCity) VALUES ('Stevens','Rob', '123 Hungry Lane', 'Meadowbank','Auckland');
-INSERT INTO Author (authorFirstName, authorLastName, authorStreet, authorSuburb, authorCity) VALUES ('Peiris','Louis', '463 Galle Road','Moratuwa', 'Napier');
-INSERT INTO Author (authorFirstName, authorLastName, authorStreet, authorSuburb, authorCity) VALUES ('Parker','Clive','21 Anderson Glen Road','Glen Innes','Auckland');
-INSERT INTO Author (authorFirstName, authorLastName, authorStreet, authorSuburb, authorCity) VALUES ('Mendis','Theodora','75D Glenvar Road','Torbay', 'Auckland');
-INSERT INTO Author (authorFirstName, authorLastName, authorStreet, authorSuburb, authorCity) VALUES ('Bingly','Lisa', '14E Glenfield Road','Glenfield','Auckland');
-INSERT INTO Author (authorFirstName, authorLastName, authorStreet, authorSuburb, authorCity) VALUES ('St.Louis','Gabriella','1163 Remuera Road','Remuera','Auckland');
-INSERT INTO Author (authorFirstName, authorLastName, authorStreet, authorSuburb, authorCity) VALUES ('Coorey','Beatrice','456 Dominion Road','Mt Eden','Auckland');
-INSERT INTO Author (authorFirstName, authorLastName, authorStreet, authorSuburb, authorCity) VALUES ('Koorey','Beatrice','12 Peach Parade','Remuera','Auckland');
+INSERT INTO Author (authorFirstName, authorLastName,
+authorStreet, authorSuburb, authorCity) VALUES
+('Stevens','Rob', '123 Hungry Lane', 'Meadowbank','Auckland'),
+('Peiris','Louis', '463 Galle Road','Moratuwa', 'Napier'),
+('Parker','Clive','21 Anderson Glen Road','Glen Innes','Auckland'),
+('Mendis','Theodora','75D Glenvar Road','Torbay', 'Auckland'),
+('Bingly','Lisa', '14E Glenfield Road','Glenfield','Auckland'),
+('St.Louis','Gabriella','1163 Remuera Road','Remuera','Auckland'),
+('Coorey','Beatrice','456 Dominion Road','Mt Eden','Auckland'),
+('Koorey','Beatrice','12 Peach Parade','Remuera','Auckland');
 ```
+<!-- .element: style="font-size:85%" -->
 
 - 🤔 What is the difference between including and not including named columns in the INSERT statement?
 
