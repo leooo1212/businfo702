@@ -222,12 +222,10 @@
 	- Each warehouse can be supplied with any number of parts from more than one vendor, but each warehouse must be supplied with at least one part
 
 
-
 ## Quiz 02
 - Revisit the [art museum case study](#/4)
 
 - Draw a logical ERD to represent the case study and list all assumptions made
-
 
 
 ## Quiz 03
