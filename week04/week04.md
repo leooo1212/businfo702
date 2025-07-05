@@ -56,6 +56,8 @@ GROUP_CONCAT(X,Y) | It returns a string which is the concatenation of all non-NU
 
 - All columns in the SELECT statement that are not associated with the multi-row function MUST be placed in the GROUP BY clause
 
+- A SELECT statement with a GROUP BY clause but without any multi-row function would be functionally equivalent to DISTINCT
+
 
 ## Example
 ```sql
