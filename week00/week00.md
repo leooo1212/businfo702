@@ -38,7 +38,7 @@ Note: Students could get support from Rohan Willis of the Business Communication
 - A3: due on Week 03 Fri 23:59 (6%)
 - A4: due on Week 04 Fri 23:59 (6%)
 - A5: due on Week 05 Fri 23:59 (6%)
-- Test: held on Week 06 Fri 18:30-20:00 (30%)
+- Test: held on Week 06 Fri 18:30-20:30 (30%)
 - TUT1-4: due on Week 07 Fri 23:59 (10%)
 - Project Proposal: due on Week 08 Fri 23:59 (3%)
 - Project Report: due on Week 10 Fri 23:59 (27%)

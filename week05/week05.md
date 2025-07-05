@@ -392,6 +392,18 @@ DROP TRIGGER InsertBookLog;
 
 
 
+## Final words about SQL
+- Less code, less bug
+  - Always try to minimise the amount of code and function call; refactor your code; aim to write a single SQL statement to accomplish a task if possible
+
+- Filter your data
+  - Use WHERE, DISTINCT and LIMIT when exploring a dataset; use WHERE in all UPDATE and DELETE operations
+
+- Join with purpose
+  - Do not join tables in a SQL statement unless there is a reason behind
+
+
+
 ## 🗒 Summary
 - By now we have gone through:
 

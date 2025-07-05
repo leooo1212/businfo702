@@ -483,6 +483,7 @@ Parker
 - The LIKE operator performs pattern matching comparison with wildcard symbols:
 	- % denotes zero or many characters
 	- _ denotes one character
+	- it is a case-insensitive matching operator
 
 
 ## Quiz 05
