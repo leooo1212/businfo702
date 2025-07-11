@@ -184,7 +184,7 @@ Note: It is mandatory to read and understand all the instructions and regulation
 
 - Attend the workshop
 
-- Getting yourself familiar with the [Chinook](../case/chinook.html) database
+- Getting yourself familiar with the [Chinook](../case/chinook.sql) database
 
 
 ## 📚 Reading
