@@ -421,7 +421,7 @@ DROP TRIGGER InsertBookLog;
 
 - Start / Complete TUT4 from Datacamp
 
-- Download and explore the [Chinook](chinook.sql) database; complete A5 before the deadline
+- Download and explore the [Chinook](../case/chinook.sql) database; complete A5 before the deadline
 
 
 ## 📚 Reading
