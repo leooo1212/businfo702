@@ -213,7 +213,7 @@ CREATE TABLE Track
 
 
 
-## The ER model
+## The logical ERD
 ![The Chinook ERD](chinook-full.svg)<!-- .element: height="650px" -->
 
 

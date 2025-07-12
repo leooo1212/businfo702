@@ -139,6 +139,8 @@ AND salary > (SELECT salary
 	WHERE s.staffCode = sa.staffCode
 	AND LOWER(staffLastName) = 'jones');
 ```
+<!-- .element: style="font-size:80%" -->
+
 ```txt
 staffLastName  salary
 -------------  ----------
@@ -154,6 +156,7 @@ Pikes          50000.0
 Cruise         45000.0
 Schindler      50000.0
 ```
+<!-- .element: style="font-size:80%" -->
 
 
 ## Single-row subquery
