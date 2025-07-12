@@ -9,7 +9,7 @@
 - Multi-row function (aggregate function)
 - Subquery
 - CASE and CAST
-- UNION, INTERSECT and EXCEPT
+- UNION / UNION ALL, INTERSECT and EXCEPT
 
 
 
@@ -298,7 +298,7 @@ FROM (SELECT bookCode, STRFTIME('%m',transactionDate) month, quantity
 FROM Inventory
 WHERE transactionTypeID = 1) t
 GROUP BY bookCode
-UNION
+UNION ALL
 SELECT 'total' bookCode,
 SUM(CASE WHEN month = '07' THEN quantity ELSE 0 END) 'July',
 SUM(CASE WHEN month = '08' THEN quantity ELSE 0 END) 'August'

@@ -27,7 +27,7 @@
   - CASE and CAST
 
 - Relational operation
-  - UNION, INTERSECT, EXCEPT
+  - UNION / UNION ALL, INTERSECT, EXCEPT
 
 
 
@@ -315,7 +315,7 @@ staffCode   salary
 ## UNION / UNION ALL
 - UNION is considered to be a fundamental relational operation. It combines the result of two SELECT statements into one, given they have the exact same projection of column
 
-- Duplicated rows would be omitted and shown only once in UNION; all rows would be shown as they are in UNION ALL
+- Duplicated rows would be omitted and shown only once in UNION; all rows would be shown as they are in UNION ALL*
 	- A NULL value is considered equal to other NULL value, and distinct from all non-NULL values
 
 - There could only be one ORDER BY clause for a UNION or UNION ALL
@@ -329,6 +329,8 @@ WHERE UPPER(paperback) = 'Y'
 ORDER BY bookCode;
 ```
 <!-- .element: contenteditable="true" -->
+
+Note: UNION ALL does not change the row order from the outputs of both queries; if the use case is to add an additional last row to an output then using UNION ALL could be more appropriate
 
 
 ## INTERSECT
@@ -378,11 +380,11 @@ bookCode    bookTitle           bookType    paperback
 
 	- how to use CASE and CAST
 
-	- how to use UNION, INTERSECT, EXCEPT
+	- how to use UNION / UNION ALL, INTERSECT, EXCEPT
 
 
 ## 📝 To do
-- Practice multi-row function, subquery, CASE, CAST, UNION, INTERSECT and EXCEPT in SQL
+- Practice multi-row function, subquery, CASE, CAST, UNION / UNION ALL, INTERSECT and EXCEPT in SQL
 
 - Attend the lab
 
