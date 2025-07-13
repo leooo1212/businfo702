@@ -493,14 +493,14 @@ McMillan Publishin  Chuck Sawyer Books
 
 ## 📚 Reading
 - Essential
-	- [Chapter 3: SQL for SQLite](https://auckland.rl.talis.com/users/C899F913-6185-B4B9-3892-600310630A5F/bookmarks/0A98B2D0-BCA9-F7B4-4A35-FFC7B4A73815.html)
+	- [Chapter 3: SQL for SQLite](https://rl.talis.com/3/auckland/items/F72D0D88-845F-BBA5-6498-EF2A32C70D90.html)
 
 - Further
 	- The ER model
-		[Chen (1976): The Entity-Relationship Model - Toward a Unified View of Data](https://auckland.rl.talis.com/users/C899F913-6185-B4B9-3892-600310630A5F/bookmarks/946589C7-0C4F-4BD2-C58B-BB29DE416C29.html)
+		- [Chen (1976): The Entity-Relationship Model - Toward a Unified View of Data](https://rl.talis.com/3/auckland/items/547FE8A9-8514-9474-8BE5-07D21679666F.html)
 
 	- Crow's foot (Martin) notation
-	 	[Steve (2002): The Details of Conceptual Modelling Notations are Important - A Comparison of Relationship Normative Language (p174-p176)](https://auckland.rl.talis.com/users/C899F913-6185-B4B9-3892-600310630A5F/bookmarks/EE015C6E-3615-408C-E481-01AF3E5E9BD5.html)
+	 	- [Steve (2002): The Details of Conceptual Modelling Notations are Important - A Comparison of Relationship Normative Language (p174-p176)](https://rl.talis.com/3/auckland/items/B0EC459E-D8D0-925D-BDCE-D1882EFFFECD.html)
 
 
 ## 🗓 Schedule

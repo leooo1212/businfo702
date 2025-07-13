@@ -398,7 +398,7 @@ bookCode    bookTitle           bookType    paperback
 
 ## 📚 Reading
 - Essential
-	- [Chapter 3: SQL for SQLite](https://auckland.rl.talis.com/users/C899F913-6185-B4B9-3892-600310630A5F/bookmarks/0A98B2D0-BCA9-F7B4-4A35-FFC7B4A73815.html)
+	- [Chapter 3: SQL for SQLite](https://rl.talis.com/3/auckland/items/F72D0D88-845F-BBA5-6498-EF2A32C70D90.html)
 
 - Further
 	- [Aggregate function in SQLite](http://www.sqlite.org/lang_aggfunc.html)
