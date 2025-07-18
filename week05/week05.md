@@ -32,7 +32,7 @@
 	- entity, entity set, relationship, attribute, primary key, foreign key
 	- degree and cardinality of relationship (multiplicity and optionality)
 	- associative entity sets
-	- conceptual data modelling > logical data modelling > physical data modelling
+	- conceptual > logical > physical
 
 - ERD
 	- crow's foot notation and draw.io
