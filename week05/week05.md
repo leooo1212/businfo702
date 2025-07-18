@@ -21,6 +21,7 @@
   - Data type
   - Constraint
   - Reshaping with CASE and UNION
+  - Subquery
 
 - CTE, TEMP TABLE, VIEW and TRIGGER
 
@@ -81,7 +82,7 @@ foreign key | foreign key | foreign key
 - DISTINCT, ORDER BY, LIMIT, OFFSET, literal and operator
 - INNER JOIN (equi vs non-equi), LEFT OUTER JOIN, CROSS JOIN, SELF JOIN
 - single-row functions, multi-row functions, subquery; nesting
-- CASE, CAST, UNION, INTERSECT, EXCEPT
+- CASE, CAST, UNION / UNION ALL, INTERSECT, EXCEPT
 
 
 
@@ -323,6 +324,74 @@ WHERE transactionTypeID = 1) t;
 
 
 
+## Subquery
+- There are two ways of composing subquery: uncorrelated vs correlated
+- Write a single SQL statement to project 4 columns: staffCode, roleID, salary and roleAvgSalary. The roleAvgSalary is calculated by averaging the salaries of all staff from the same role
+
+```
+┌───────────┬────────┬─────────┬───────────────┐
+│ staffCode │ roleID │ salary  │ roleAvgSalary │
+├───────────┼────────┼─────────┼───────────────┤
+│ 1         │ 1      │ 72000.0 │ 58750.0       │
+│ 2         │ 1      │ 64000.0 │ 58750.0       │
+│ 3         │ 1      │ 45000.0 │ 58750.0       │
+│ 4         │ 1      │ 54000.0 │ 58750.0       │
+│ 5         │ 2      │ 48000.0 │ 40750.0       │
+│ 6         │ 2      │ 35000.0 │ 40750.0       │
+│ 7         │ 2      │ 40000.0 │ 40750.0       │
+│ 8         │ 2      │ 40000.0 │ 40750.0       │
+│ 9         │ 3      │ 45000.0 │ 47500.0       │
+│ 10        │ 3      │ 50000.0 │ 47500.0       │
+│ 11        │ 3      │ 45000.0 │ 47500.0       │
+│ 12        │ 3      │ 50000.0 │ 47500.0       │
+└───────────┴────────┴─────────┴───────────────┘
+```
+<!-- .element: style="font-size:80%" -->
+Note: Correlated subquery is not assessed in the assignment nor the test
+
+
+## Uncorrelated subquery
+- An uncorrelated subquery is a query that is independent from the main query; often they are executed only once
+
+```sql
+SELECT staffCode, sa.roleID, salary, roleAvgSalary
+FROM StaffAssignment sa JOIN
+    (SELECT roleID, AVG(salary) roleAvgSalary
+        FROM StaffAssignment
+        GROUP BY roleID) t
+ON sa.roleID = t.roleID;
+```
+<!-- .element: style="font-size:80%" -->
+
+
+## Correlated subquery
+- A correlated subquery is a subquery that contains expression(s) from the main query; often they are run once per row from the main query
+
+```sql
+SELECT staffCode, roleID, salary,
+(SELECT AVG(salary) FROM StaffAssignment s
+    WHERE m.roleID = s.roleID) roleAvgSalary
+FROM StaffAssignment m;
+```
+<!-- .element: style="font-size:80%" -->
+
+
+## Correlated subquery with EXISTS
+- The EXISTS operator can be used to check if a given subquery has any result
+
+```sql
+SELECT *
+FROM BookPrice m
+WHERE NOT EXISTS(SELECT * FROM BookPrice s
+                    WHERE m.bookCode = s.bookCode
+                    AND s.startDate > m.startDate)
+ORDER BY bookCode;
+```
+<!-- .element: style="font-size:80%" -->
+- 🤔 Rewrite this SQL statement with an uncorrelated subquery instead
+
+
+
 ## CTE and TEMP TABLE
 - Common table expression (CTE) and temporary table are temporary storage of data
   - a CTE lasts for the duration of one single SQL statement
@@ -351,7 +420,7 @@ SELECT * FROM BookSaleTemp;
 
 ```sql
 CREATE VIEW LatestBookPrice AS
-SELECT p1.bookCode, p2.startDate, p1.endDate, p1.price
+SELECT p1.bookCode, p1.startDate, endDate, price
 FROM BookPrice p1,
    (SELECT bookCode, MAX(startDate) startDate
     FROM BookPrice
