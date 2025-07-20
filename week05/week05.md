@@ -31,14 +31,14 @@
 - ER model
 	- entity, entity set, relationship, attribute, primary key, foreign key
 	- degree and cardinality of relationship (multiplicity and optionality)
-	- associative entity sets
+	- associative entity set
 	- conceptual > logical > physical
 
 - ERD
 	- crow's foot notation and draw.io
 
 
-## The data models
+## The data model
 ER model ([Chen](https://dl.acm.org/doi/abs/10.1145/320434.320440)) | Relational model ([Codd](https://dl.acm.org/doi/abs/10.1145/362384.362685)) | SQL
 --- | --- | ---
 entity set | relation | table
@@ -290,7 +290,7 @@ GROUP BY bookCode
 <!-- .element: style="font-size:80%" -->
 
 
-## Reshaping with CASE and UNION
+## CASE and UNION ALL
 ```sql
 SELECT bookCode,
 SUM(CASE WHEN month = '07' THEN quantity ELSE 0 END) 'July',
@@ -320,7 +320,7 @@ WHERE transactionTypeID = 1) t;
 │ total    │ 205  │ 317    │
 └──────────┴──────┴────────┘
 ```
-<!-- .element: style="font-size:80%" -->
+<!-- .element: style="font-size:70%" -->
 
 
 
