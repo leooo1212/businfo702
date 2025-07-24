@@ -112,6 +112,8 @@ foreign key | foreign key | foreign key
 	- CHECK
 	- FOREIGN KEY
 
+- [Column constraint](https://sqlite.org/syntax/column-constraint.html) vs [table constraint](https://sqlite.org/syntax/table-constraint.html)
+
 
 ## PRIMARY KEY
 - In SQLite, an INTEGER PRIMARY KEY column is created when a table is created, whether a PRIMARY KEY constraint is explicitly defined or not
@@ -178,10 +180,8 @@ CREATE TABLE MyTime (
 CREATE TABLE Contact (
 id INTEGER PRIMARY KEY NOT NULL,
 name TEXT,
-phone TEXT,
-CHECK (LENGTH(phone)>=7)
+phone TEXT CHECK (LENGTH(phone)>=7)
 );
-
 ```
 <!-- .element: style="font-size:80%" -->
 
@@ -499,6 +499,7 @@ DROP TRIGGER InsertBookLog;
 
 - Further
 	- [Data type in SQLite](https://www.sqlite.org/datatype3.html)
+	- [Column constraint](https://sqlite.org/syntax/column-constraint.html) and [table constraint](https://sqlite.org/syntax/table-constraint.html) in SQLite
 	- [Foreign key support in SQLite](https://www.sqlite.org/foreignkeys.html)
 	- [CTE in SQLite](https://sqlite.org/lang_with.html)
 	- [View in SQLite](https://www.sqlite.org/lang_createview.html)
