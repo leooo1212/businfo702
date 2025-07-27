@@ -27,7 +27,7 @@
 - T1: this 120-minute Inspera-enabled Canvas online test (18:30 to 20:30 NZT on 2025-08-01) is an individual assessment representing 30% of the course
 <!-- .element: style="font-size:90%" -->
 
-- There are 14 questions in total: 2 questions with ERD and 10 questions with SQL, covering **Week 01 to Week 05** of the course. There are two types of question: multiple answer and essay. For multiple answer typed question, you are expected to select a correct number of correct statements. For essay typed question, you are expected to write words or code to answer them. Partial marks are considered in this assessment. For SQL questions, you may be shown with some sample output only to help you understand the required structure for the output. Ignore the data from the sample output
+- There are 14 questions in total: 2 questions with ERD and 12 questions with SQL, covering **Week 01 to Week 05** of the course. There are two types of question: multiple answer and essay. For multiple answer typed question, you are expected to select a correct number of correct statements. For essay typed question, you are expected to write words or code to answer them. Partial marks are considered in this assessment. For SQL questions, you may be shown with some sample output only to help you understand the required structure for the output. Ignore the data from the sample output
 <!-- .element: style="font-size:90%" -->
 
 - The assessment will be delivered in [exam mode B](https://www.auckland.ac.nz/en/students/academic-information/exams-and-final-results/about-exams/exam-mode-b.html) together with Canvas, which means you must download and use the [Inspera Integrity Browser (IIB)](https://www.auckland.ac.nz/assets/students/academic-information/exams-and-final-results/online-exams/iib-guides-for-practice-exams-(mode-b)/IIB%20Setup%20(Mode%20B).docx.pdf) during the assessment in Canvas and follow all the instructions associated with mode B. During the test, you must treat it as if you are doing it in-person. Failing to comply would automatically get a zero mark for the test
@@ -47,9 +47,9 @@ Note: It is mandatory to read and understand all the instructions and regulation
 ## More specification
 - You are **not allowed to use any search engine and unauthorised material** that are outside the scope of the course for this assessment
 
-- You are **not allowed to copy and paste** when you answer your question
+- You are **not allowed to copy and paste** when you answer your question without typing them out at least one time
 
-- You are not expected to use SQLite the software itself during the test
+- You are not expected to use SQLite and related software during the test but you are allowed to use them
 
 - You are **responsible to fully comply** with the [University’s Regulations, Statues and Guidelines](http://www.auckland.ac.nz/uoa/home/about/teaching-learning/honesty/tl-uni-regs-statutes-guidelines); any non-compliance to the given instructions could end up with some heavy penalty
 
