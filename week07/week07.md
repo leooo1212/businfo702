@@ -66,7 +66,7 @@ Note: A data warehouse is a database designed to support decision‑making in an
 - Data Source
 	- Internal and external
 
-- Data Staging / Cleansing ([ETL](https://en.wikipedia.org/wiki/Extract,_transform,_load))
+- Data Staging / Cleansing ([ETL](https://en.wikipedia.org/wiki/Extract,_transform,_load) / [ELT](https://en.wikipedia.org/wiki/Extract,_load,_transform))
 	- Data extraction
 	- Data transformation
 	- Data loading
