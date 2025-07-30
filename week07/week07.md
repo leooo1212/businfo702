@@ -129,9 +129,9 @@ Note: A data warehouse is a database designed to support decision‑making in an
 
 - Data Warehouse
   - Design: denormalised dimensional model to optimise for read-intensive analytical queries
-	- Time span: tends to cover long time frame
-	- Granularity: presents at different levels of aggregation
-	- Dimensionality: could be analysed from multiple dimensions
+  - Time span: tends to cover long time frame
+  - Granularity: presents at different levels of aggregation
+  - Dimensionality: could be analysed from multiple dimensions
 
 
 
