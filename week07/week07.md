@@ -214,7 +214,7 @@ Total number of rows = 1000 * 5000 * 24 = 120000000
 ## 📚 Reading
 
 - Essential
-	- [An Overview of Data Warehousing and OLAP Technology](https://auckland.rl.talis.com/users/C899F913-6185-B4B9-3892-600310630A5F/bookmarks/8AC175FB-3E72-3C77-3F6F-EF094E047E8C.html)
+	- [An Overview of Data Warehousing and OLAP Technology](https://rl.talis.com/3/auckland/items/B49F99EF-3D88-156D-AF9C-B8D77961240A.html)
 
 
 ## 🗓 Schedule
