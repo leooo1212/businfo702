@@ -191,6 +191,8 @@ Total number of rows = 1000 * 5000 * 24 = 120000000
 
 - BBP wishes to retain three years of data in the data mart. BBP has a total of 30 sales territories spread over three countries. Each territory has, on average, five agents; and agents are responsible for, on average, in any one month, 20 books each. How many rows, on average, will be retained in the fact table of the data mart?
 
+- What business questions can be asked for new insights?
+
 
 
 ## 🗒 Summary
