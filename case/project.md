@@ -58,20 +58,22 @@
   - All questions must be analytical in nature, aiming for new insights
   - Provide as much background information as needed to highlight the importance of the questions
 
+
+## Project report requirement
 - Star schema design (5%)
   - Design a dimensional data model using star schema
   - Use draw.io or mermaid.js to clearly illustrate your star schema
   - The star schema must have at least 3 dimension tables and 2 attribute hierarchies
   - Provide explanation on how the chosen datasets relate to the star schema
 
-
-## Project report requirement
 - ELT implementation in SQLite (8%)
   - Extract: Provide detail on how the data is extracted
   - Load: Describe and demonstrate all data import procedures involved to load data to SQLite
   - Transform: Explain and demonstrate transformations for: 1) Fact table, 2) Time dimension, 3) attribute hierarchy, and 4) all other relevant dimensions and measures derived from the loaded data
   - You are expected to include all SQL statements you have used
 
+
+## Project report requirement
 - SQL for business analytics (6%)
   - Write and execute a minimum of 3 SQL statements to answer the proposed research questions
   - Provide comment and explanation for each SQL statement
