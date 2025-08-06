@@ -69,7 +69,7 @@
 - ELT implementation in SQLite (8%)
   - Extract: Provide detail on how the data is extracted
   - Load: Describe and demonstrate all data import procedures involved to load data to SQLite
-  - Transform: Explain and demonstrate transformations for: 1) Fact table, 2) Time dimension, 3) attribute hierarchy, and 4) all other relevant dimensions and measures derived from the loaded data
+  - Transform: Explain and demonstrate transformations for: 1) fact table, 2) time dimension, 3) attribute hierarchy, and 4) all other relevant dimensions and measures derived from the loaded data
   - You are expected to include all SQL statements you have used
 
 
@@ -83,7 +83,7 @@
   - Suggest further analyses or improvements to the data warehouse / mart
 
 - Optional: data visualisation (1% bonus)
-  - Visualise insights using Python, Streamlit, D3 or any other appropriate tool
+  - Visualise insights using Python, Streamlit, D3 or any appropriate tool
 
 
 
