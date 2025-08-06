@@ -51,26 +51,26 @@
 
 ## Project report requirement
 - Executive summary (2%)
-  - A concise half-page summary written for business stakeholder outlining the project's goal, data sources, questions, and key insights derived
+  - A concise half-page summary written for business stakeholder outlining the project's goals, data sources, questions, and key insights derived
 
 - Research question (2%)
-  - Based on the chosen datasets, come up with a minimum of 3 interesting research questions that potentially could only be asked and answered by your project
-  - All questions must be analytical in nature, aiming for new insights
-  - Provide as much background information as needed to highlight the importance of the questions
+  - Based on the chosen datasets, come up with a minimum of 3 research questions that potentially could only be answered from your project
+  - The question must be analytical by nature, aiming to discover new insight
+  - Provide as much background information as needed to highlight the importance of the question
 
 
 ## Project report requirement
 - Star schema design (5%)
   - Design a dimensional data model using star schema
-  - Use draw.io or mermaid.js to clearly illustrate your star schema
+  - Use [draw.io](https://draw.io) or [mermaid.js](https://mermaid.js.org) to clearly illustrate the star schema
   - The star schema must have at least 3 dimension tables and 2 attribute hierarchies
-  - Provide explanation on how the chosen datasets relate to the star schema
+  - Provide explanation on how the data from the chosen datasets relate to the star schema
 
 - ELT implementation in SQLite (8%)
   - Extract: Provide detail on how the data is extracted
-  - Load: Describe and demonstrate all data import procedures involved to load data to SQLite
-  - Transform: Explain and demonstrate transformations for: 1) fact table, 2) time dimension, 3) attribute hierarchy, and 4) all other relevant dimensions and measures derived from the loaded data
-  - You are expected to include all SQL statements you have used
+  - Load: Describe and demonstrate the data import procedure involved to load data to SQLite
+  - Transform: Explain and demonstrate transformation for the: i) fact table, ii) time dimension, iii) attribute hierarchy, and iv) all other relevant dimension and measure derived from the loaded data
+  - You are expected to include all the SQL statements you have used
 
 
 ## Project report requirement
@@ -78,12 +78,12 @@
   - Write and execute a minimum of 3 SQL statements to answer the proposed research questions
   - Provide comment and explanation for each SQL statement
 
-- Insights and future work (2%)
-  - Briefly discuss key findings and insights derived from your analysis
-  - Suggest further analyses or improvements to the data warehouse / mart
+- Insight and future work (2%)
+  - Briefly discuss key finding and insight derived from your analysis
+  - Suggest further work and improvement
 
 - Optional: data visualisation (1% bonus)
-  - Visualise insights using Python, Streamlit, D3 or any appropriate tool
+  - Visualise insight with Python, Streamlit, D3 or any other tool
 
 
 
