@@ -83,7 +83,7 @@
   - Briefly discuss key finding and insight derived from your analysis
   - Suggest further work and improvement
 
-- Optional: data visualisation (1% bonus)
+- Optional: Data visualisation (1% bonus)
   - Visualise insight with [Python](https://colab.research.google.com/), [Streamlit](https://streamlit.io/), [D3](https://d3js.org/) or any other tool
 
 

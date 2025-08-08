@@ -282,7 +282,7 @@ ON CAST(td.year AS INTEGER) = t.year;
 
 ## 📝 To do
 - Practice relevant SQLite commands and SQL techniques for the purpose of ELT
-
+- Attend the lab and learn how to do ELT with DB Browser
 - Finalise your project proposal and submit before the deadline
 
 
