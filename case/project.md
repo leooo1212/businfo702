@@ -1,6 +1,6 @@
 # 💼 Project
 ### Data warehouse and analytics
-[©](https://creativecommons.org/licenses/by/4.0/) [Johnny Chan](mailto:jh.chan@auckland.ac.nz) | 🗓 2025-08-06
+[©](https://creativecommons.org/licenses/by/4.0/) [Johnny Chan](mailto:jh.chan@auckland.ac.nz) | 🗓 2025-08-08
 
 
 
@@ -42,11 +42,11 @@
 
 
 ## Submission
-- **Project proposal (3%)**: Submit a single document in PDF format per group containing your project proposal to Canvas before the deadline. Attach the links to the publicly accessible datasets and / or the data files (e.g. Google Drive) when needed. Follow the project proposal template from Canvas
+- **Project proposal (3%)**: Submit a single document in PDF format per group containing your project proposal to Canvas before the deadline. Attach the links to the publicly accessible datasets and / or the data files (e.g. Google Drive) when needed. You must follow the project proposal template from Canvas
 
-- **Project report (25%)**: Submit a single document in PDF format per group containing all the contents of your project to Canvas before the deadline. Attach the links to your SQLite data warehouse and any other relevant artefact (e.g. Google Drive). Follow the project report requirement
+- **Project report (25%)**: Submit a single document in PDF format per group containing all the contents of your project to Canvas before the deadline. Attach the links to your SQLite data warehouse and any other relevant artefact (e.g. Google Drive). You must follow the project report requirement
 
-- **Project individual reflection (2%)**: Submit a single document in PDF format per student containing self reflection on the project and an assessment of contribution from each member of the group to Canvas before the deadline. Follow the project individual reflection template from Canvas
+- **Project individual reflection (2%)**: Submit a single document in PDF format per student containing self reflection on the project and an assessment of contribution from each member of the group to Canvas before the deadline. You must follow the project individual reflection template from Canvas
 
 
 
@@ -63,7 +63,7 @@
 ## Project report requirement
 - Star schema design (5%)
   - Design a dimensional data model using star schema
-  - Use [draw.io](https://draw.io) or [mermaid.js](https://mermaid.js.org) to clearly illustrate the star schema
+  - Use [draw.io](https://draw.io) (or [mermaid.js](https://mermaid.js.org)) to clearly illustrate the star schema
   - The star schema must have at least 3 dimension tables and 2 attribute hierarchies
   - Provide explanation on how the data from the chosen datasets relate to the star schema
 
@@ -71,7 +71,7 @@
   - Extract: Provide detail on how the data is extracted
   - Load: Describe and demonstrate the data import procedure involved to load data to SQLite
   - Transform: Explain and demonstrate transformation for the: i) fact table, ii) time dimension, iii) attribute hierarchy, and iv) all other relevant dimension and measure derived from the loaded data
-  - You are expected to include all the SQL statements you have used
+  - You are expected to include all SQLite commands and SQL statements you have used
 
 
 ## Project report requirement
