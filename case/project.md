@@ -25,18 +25,19 @@
 ## Sample dataset
 - The following datasets align with the project theme; your group could choose to use them or not for the project
 
-| Name                                              | Type | Link                                                                                                                                   |
+| Name                                              | Type | Source                                                                                                                                   |
 |---------------------------------------------------|------|----------------------------------------------------------------------------------------------------------------------------------------|
-| Climate Change: Earth Surface Temperature Data    | CSV  | [Link](https://www.kaggle.com/datasets/berkeleyearth/climate-change-earth-surface-temperature-data)                                    |
-| Country Statistics                                | CSV  | [Link](https://www.kaggle.com/sudalairajkumar/undata-country-profiles)                                                                 |
-| COVID-19 General Statistics                       | CSV  | [Link](https://www.kaggle.com/sudalairajkumar/novel-corona-virus-2019-dataset)                                                         |
-| COVID-19 Vaccinations                             | CSV  | [Link](https://www.kaggle.com/gpreda/covid-world-vaccination-progress)                                                                 |
-| Global Trends in Mental Health Disorder           | CSV  | [Link](https://www.kaggle.com/datasets/thedevastator/uncover-global-trends-in-mental-health-disorder)                                  |
-| Data Science for Good: PASSNYC                    | CSV  | [Link](https://www.kaggle.com/datasets/passnyc/data-science-for-good)                                                                  |
-| Demographics and Employment in the United States  | CSV  | [Link](https://www.kaggle.com/datasets/econdata/demographics-and-employment-in-the-united-states)                                      |
-| World Air Quality Index by City and Coordinates   | CSV  | [Link](https://www.kaggle.com/datasets/adityaramachandran27/world-air-quality-index-by-city-and-coordinates)                           |
-| World University Rankings                         | CSV  | [Link](https://www.kaggle.com/mylesoneill/world-university-rankings)                                                                   |
-| Suicide Rates Overview                            | CSV  | [Link](https://www.kaggle.com/datasets/russellyates88/suicide-rates-overview-1985-to-2016)                                             |
+| Climate Change: Earth Surface Temperature Data    | CSV  | [Kaggle](https://www.kaggle.com/datasets/berkeleyearth/climate-change-earth-surface-temperature-data)                                    |
+| Country Statistics                                | CSV  | [Kaggle](https://www.kaggle.com/sudalairajkumar/undata-country-profiles)                                                                 |
+| COVID-19 General Statistics                       | CSV  | [Kaggle](https://www.kaggle.com/sudalairajkumar/novel-corona-virus-2019-dataset)                                                         |
+| COVID-19 Vaccinations                             | CSV  | [Kaggle](https://www.kaggle.com/gpreda/covid-world-vaccination-progress)                                                                 |
+| Global Trends in Mental Health Disorder           | CSV  | [Kaggle](https://www.kaggle.com/datasets/thedevastator/uncover-global-trends-in-mental-health-disorder)                                  |
+| Data Science for Good: PASSNYC                    | CSV  | [Kaggle](https://www.kaggle.com/datasets/passnyc/data-science-for-good)                                                                  |
+| Demographics and Employment in the United States  | CSV  | [Kaggle](https://www.kaggle.com/datasets/econdata/demographics-and-employment-in-the-united-states)                                      |
+| World Air Quality Index by City and Coordinates   | CSV  | [Kaggle](https://www.kaggle.com/datasets/adityaramachandran27/world-air-quality-index-by-city-and-coordinates)                           |
+| World University Rankings                         | CSV  | [Kaggle](https://www.kaggle.com/mylesoneill/world-university-rankings)                                                                   |
+| Suicide Rates Overview                            | CSV  | [Kaggle](https://www.kaggle.com/datasets/russellyates88/suicide-rates-overview-1985-to-2016)                                             |
+<!-- .element: style="font-size:90%" -->
 
 
 
@@ -83,7 +84,7 @@
   - Suggest further work and improvement
 
 - Optional: data visualisation (1% bonus)
-  - Visualise insight with Python, Streamlit, D3 or any other tool
+  - Visualise insight with [Python](https://colab.research.google.com/), [Streamlit](https://streamlit.io/), [D3](https://d3js.org/) or any other tool
 
 
 
