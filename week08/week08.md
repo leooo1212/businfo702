@@ -240,6 +240,9 @@ UPDATE timesData
 SET num_students = NULL
 WHERE num_students = '';
 
+UPDATE timesData
+SET num_students = REPLACE(num_students, ',', '')
+WHERE INSTR(num_students, ',') > 0;
 ```
 <!-- .element: style="font-size:90%" -->
 
@@ -247,21 +250,20 @@ WHERE num_students = '';
 ## Insert the transformed data
 ```
 INSERT INTO University (university_name, country)
-SELECT DISTINCT(university_name), country FROM timesData;
+SELECT DISTINCT university_name, country FROM timesData;
 
 INSERT INTO Time (year)
-SELECT DISTINCT(CAST(year AS INTEGER)) year FROM timesData;
+SELECT DISTINCT CAST(year AS INTEGER) year FROM timesData;
 
 INSERT INTO Ranking (uniID, timeID, world_rank,
   teaching, research, num_students)
 SELECT uniID, timeID, world_rank,
   CAST(teaching AS REAL) teaching,
   CAST(research AS REAL) research,
-  CAST(REPLACE(num_students, ',', '') AS INTEGER) num_students
-FROM timesData td JOIN University u
-ON td.university_name = u.university_name
-JOIN Time t
-ON CAST(td.year AS INTEGER) = t.year;
+  CAST(num_students AS INTEGER) num_students
+FROM timesData td
+JOIN University u ON td.university_name = u.university_name
+JOIN Time t ON CAST(td.year AS INTEGER) = t.year;
 ```
 <!-- .element: style="font-size:90%" -->
 
@@ -281,7 +283,7 @@ ON CAST(td.year AS INTEGER) = t.year;
 
 
 ## 📝 To do
-- Practice relevant SQLite commands and SQL techniques for the purpose of ELT
+- Practice relevant SQLite commands and SQL techniques for ELT
 - Attend the lab and learn how to do ELT with DB Browser
 - Finalise your project proposal and submit before the deadline
 
