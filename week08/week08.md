@@ -153,7 +153,7 @@ CREATE TABLE IF NOT EXISTS "Shipper"(
 ```
 .import --csv --skip 1 more-shipper.csv Shipper
 ```
-Note: If the intention is to use a table filled with externally sourced data immediately, then it is preferable to create the table manually if it does not exist with a CREATE TABLE statement before executing the ```.import``` command. Make sure the number of columns and the column order are exactly the same between the CSV file and the table, or otherwise the command will fail to execute. If the intention is to load up all the extracted data from source to target repository, then it is preferable to create a (temporary) table based on the header row of the CSV file automatically by the ```.import``` command
+Note: If the intention is to use a table filled with externally sourced data immediately, then it is preferable to create the table manually if it does not exist with a CREATE TABLE statement before executing the ```.import``` command. Make sure the number of columns and the column order are exactly the same between the CSV file and the table, or otherwise the command will fail to execute. If the intention is to load up all the extracted data from source to target repository for transformation, then it is preferable to create a (temporary) table based on the header row of the CSV file automatically by the ```.import``` command
 
 
 ## Example
